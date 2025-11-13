@@ -218,8 +218,7 @@ a:focus-visible {
   Images
    ======================= */
 
-.content figure,
-.blog figure {
+.content figure {
   max-width: 600px; 
   width: 100%;    
    height: 400px;    
@@ -230,16 +229,12 @@ a:focus-visible {
   align-items: center;
 }
 
-.content figure img ,
-.blog figure img{
+.content figure img {
   width: 100%;
   height: 100%;
   object-fit: cover;      /* crops evenly without distortion */
   object-position: center;
 }
-
-
-
 
 
 /* =======================
