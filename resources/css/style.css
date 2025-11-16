@@ -357,9 +357,12 @@ footer a:focus-visible {
   box-shadow: 0 0 0 0.125rem var(--color-text-secondary);
 }
 
-#copyright,
-#acknowledgment {
+#copyright{
   font-size: var(--font-size-h5);
+}
+
+#credit{
+  font-size: var(--font-size-h6);
 }
 
 /* =======================
