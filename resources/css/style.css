@@ -357,11 +357,11 @@ footer a:focus-visible {
   box-shadow: 0 0 0 0.125rem var(--color-text-secondary);
 }
 
-#copyright{
+#copyright {
   font-size: var(--font-size-h5);
 }
 
-#credit{
+#credit {
   font-size: var(--font-size-h6);
 }
 
