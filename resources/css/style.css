@@ -148,27 +148,27 @@ a:focus-visible {
   box-shadow: 0 0 0 0.125rem var(--color-text-secondary);
 }
 
+
 /* =======================
-   Navigation
+   Header and Navigation
    ======================= */
+
+  .logo {
+    height: 85px;
+    /* default desktop */
+  }
+
+  /* Medium and smaller screens */
+  @media (max-width: 768px) {
+    .logo {
+      height: 75px;
+    }
+  }
+
 .navbar {
   background-color: var(--color-bg-secondary);
   color: var(--color-text-primary);
   transition: all var(--transition-default);
-}
-
-.navbar-brand {
-  font-family: var(--font-heading);
-  font-size: var(--font-size-h3);
-  color: var(--color-text-secondary);
-  transition: color var(--transition-default);
-}
-
-.navbar-brand:hover,
-.navbar-brand:focus,
-.navbar-brand:focus-visible,
-.navbar-brand:active {
-  color: var(--color-text-secondary);
 }
 
 .navbar-brand:focus-visible {
@@ -357,6 +357,7 @@ footer a:focus-visible {
   box-shadow: 0 0 0 0.125rem var(--color-text-secondary);
 }
 
+#legal,
 #copyright {
   font-size: var(--font-size-h5);
 }
