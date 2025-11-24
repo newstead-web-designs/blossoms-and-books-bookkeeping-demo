@@ -413,20 +413,18 @@
             <p class="d-none">
               <label>Don't fill this out if you're human: <input name="bot-field"></label>
             </p>
-            
+
             <!-- Name -->
             <div class="mb-3">
               <label for="name" class="form-label">Name<span class="required-asterisk">*</span></label>
-              <input type="text" class="form-control" id="name" name="name" placeholder="Name" required
-                autocomplete="name">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
               <div class="invalid-feedback">Please enter your name.</div>
             </div>
 
             <!-- Email -->
             <div class="mb-3">
               <label for="email" class="form-label">Email<span class="required-asterisk">*</span></label>
-              <input type="email" class="form-control" id="email" name="email" placeholder="Email" required
-                autocomplete="email">
+              <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
               <div class="invalid-feedback">Please enter a valid email address.</div>
             </div>
 
@@ -443,37 +441,41 @@
               <div class="d-flex flex-column flex-lg-row flex-wrap gap-lg-3">
 
                 <div class="form-check d-flex align-items-center">
-                  <input class="form-check-input" type="checkbox" name="services" value="General Bookkeeping"
+                  <input class="form-check-input" type="checkbox" value="General Bookkeeping"
                     id="service-bookkeeping">
                   <label class="form-check-label ms-2 mt-1" for="service-bookkeeping">General Bookkeeping</label>
                 </div>
 
                 <div class="form-check d-flex align-items-center">
-                  <input class="form-check-input" type="checkbox" name="services" value="Payroll" id="service-payroll">
+                  <input class="form-check-input" type="checkbox" value="Payroll"
+                    id="service-payroll">
                   <label class="form-check-label ms-2 mt-1" for="service-payroll">Payroll</label>
                 </div>
 
                 <div class="form-check d-flex align-items-center">
-                  <input class="form-check-input" type="checkbox" name="services" value="BAS" id="service-bas">
+                  <input class="form-check-input" type="checkbox" value="BAS"
+                    id="service-bas">
                   <label class="form-check-label ms-2 mt-1" for="service-bas">BAS</label>
                 </div>
 
                 <div class="form-check d-flex align-items-center">
-                  <input class="form-check-input" type="checkbox" name="services" value="Accounting Software"
+                  <input class="form-check-input" type="checkbox" value="Accounting Software"
                     id="service-accounting">
-                  <label class="form-check-label ms-2 mt-1" for="service-accounting">Accounting Software</label>
+                  <label class="form-check-label ms-2 mt-1" for="service-accounting">Accounting Software
+                  </label>
                 </div>
 
               </div>
             </fieldset>
 
-             <!-- Hidden field to collect selected services -->
+            <!-- Hidden field to collect selected services -->
             <input type="hidden" name="Services" id="services_list">
 
             <!-- Message -->
             <div class="mb-3">
               <label for="message" class="form-label">Additional Message</label>
-              <textarea class="form-control" id="message" name="message" rows="5" placeholder="Message"></textarea>
+              <textarea class="form-control" id="message" name="message" rows="5" 
+              placeholder="Message"></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary mt-3">Submit</button>
@@ -558,7 +560,7 @@
   <script src="resources/js/menuToggle.js"></script>
 
   <!-- Form Checklist Script -->
-  <script src="resources/js/contactForm.js"></script>
+  <script src="resources/js/contact.js"></script>
 
   <!-- Form Validation Toggle Script -->
   <script src="resources/js/formValidation.js"></script>
